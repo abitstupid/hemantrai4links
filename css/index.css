@@ -26,8 +26,6 @@ main {
     background-color: #fff;
     height: 285px;
     width: 285px;
-    /* height: 18vw;
-    width: 18vw; */
     border-radius: 1rem;
     box-shadow: 10px 6px 22px -3px rgba(0, 0, 0, 0.22);
     display: flex;
@@ -40,12 +38,14 @@ main {
 }
 
 .link-box:hover {
-    /* background-color: var(--pri-color); */
-    /* color: #fff; */
     box-shadow: 10px 6px 18px -3px rgba(0, 0, 0, 0.374) ,
                 inset 5px 2px 9px -3px rgba(0, 0, 0, 0.296);
-    /* box-shadow: inset 5px 2px 9px -3px rgba(0, 0, 0, 0.374); */
+    
     cursor: pointer;
+
+    /* background-color: var(--pri-color); */
+    /* color: #fff; */
+
 }
 
 .link-box-l {
@@ -143,4 +143,9 @@ main {
     .link-box {
         margin: 1rem;
     }
-} 
+
+    .sub-container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
