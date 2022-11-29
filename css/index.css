@@ -140,7 +140,7 @@ main {
     .link-container {
         bottom: 2rem;
     }
-    
+
     .sub-container {
         flex-wrap: wrap;
         margin-top: 1rem;
@@ -149,5 +149,9 @@ main {
 
     .link-box {
         margin: 1rem;
+    }
+
+    footer {
+        margin-top: 5rem;
     }
 }
