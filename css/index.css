@@ -41,9 +41,10 @@ main {
 
 .link-box:hover {
     /* background-color: var(--pri-color); */
-    color: #fff;
-    box-shadow: 10px 6px 18px -3px rgba(0, 0, 0, 0.374);
-    box-shadow: inset 5px 2px 9px -3px rgba(0, 0, 0, 0.374);
+    /* color: #fff; */
+    box-shadow: 10px 6px 18px -3px rgba(0, 0, 0, 0.374) ,
+                inset 5px 2px 9px -3px rgba(0, 0, 0, 0.296);
+    /* box-shadow: inset 5px 2px 9px -3px rgba(0, 0, 0, 0.374); */
     cursor: pointer;
 }
 
