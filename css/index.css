@@ -1,0 +1,145 @@
+main {
+    position: relative;
+}
+.main-heading-text {
+    font-size: 13vw;
+    font-weight: 800;
+    text-align: center;
+    line-height: 96%;
+    color: var(--pri-color);
+}
+
+.link-container {
+    position: relative;
+    bottom: 5rem;
+}
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.link-box {
+    background-color: #fff;
+    height: 285px;
+    width: 285px;
+    /* height: 18vw;
+    width: 18vw; */
+    border-radius: 1rem;
+    box-shadow: 10px 6px 22px -3px rgba(0, 0, 0, 0.22);
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition-duration: 500ms;
+}
+
+.link-box:hover {
+    background-color: var(--pri-color);
+    color: #fff;
+    box-shadow: 10px 6px 18px -3px rgba(0, 0, 0, 0.374);
+    box-shadow: inset 5px 2px 9px -3px rgba(0, 0, 0, 0.374);
+    cursor: pointer;
+}
+
+.link-box-l {
+    margin-right: 1.5rem;
+}
+
+.link-box-r {
+    margin-left: 1.5rem;
+}
+
+.link-icon {
+    height: 30%;
+    width: 30%;
+}
+
+.link-icon-1 {
+    background: url(/assets/coding.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link-icon-2 {
+    background: url(/assets/blog.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.link-icon-3 {
+    background: url(/assets/link.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.link-icon-4 {
+    background: url(/assets/spotify.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.link-text {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -64px;
+    margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .main-heading-text {
+        font-size: 13vw;
+    }
+
+    .link-container {
+        position: relative;
+        bottom: 4rem;
+    }
+
+    .link-box {
+        height: 230px;
+        width: 230px;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .main-heading-text {
+        font-size: 13vw;
+        line-height: 140%;
+    }
+
+    .link-container {
+        position: relative;
+        bottom: 3.5rem;
+    }
+
+    .link-box {
+        height: 180px;
+        width: 180px;
+    }
+} 
+
+@media only screen and (max-width: 476px) {
+    .sub-container {
+        flex-wrap: wrap;
+    }
+
+    .link-box {
+        margin: 1rem;
+    }
+} 

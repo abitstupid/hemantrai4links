@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --pri-color: #A00FE4;
+    --sec-color: #000;
+    --ter-color: #fcd770;
+}
+
+::selection {
+    color: var(--pri-color);
+    background: var(--ter-color);
+}
+
+  ::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: #fcd770;
+}
+
+.pri-text {
+    font-family: Montserrat, sans-serif;
+}
+
+.sec-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
