@@ -4,6 +4,15 @@
     padding: 0px;
 }
 
+*:link , *:visited , *:hover ,  *:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: var(--pri-color);
+}
+
 :root {
     --pri-color: #A00FE4;
     --sec-color: #000;
